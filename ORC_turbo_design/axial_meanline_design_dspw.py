@@ -17,7 +17,7 @@ import timeit
 from ctREFPROP.ctREFPROP import REFPROPFunctionLibrary
 import CoolProp.CoolProp as CP
 from tabulate import tabulate
-from units import convert
+from ORC_turbo_design.units import convert
 from scipy.interpolate import griddata
 from deap import base, creator, tools, algorithms
 from multiprocessing import Pool
