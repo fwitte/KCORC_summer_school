@@ -1,0 +1,73 @@
+{
+  "model_version": "kcorc-teaching-draft-0.1",
+  "inputs": {
+    "fluid": "R1233zd(E)",
+    "p_in_Pa": 2500000.0,
+    "T_in_K": 423.15,
+    "p_out_Pa": 475000.0,
+    "m_dot_kg_s": 5.025,
+    "n_rpm": 3000.0,
+    "D_mid_m": 0.5,
+    "alpha_stator_deg": 11.5,
+    "beta_rotor_in_deg": 23.0,
+    "beta_rotor_out_acute_deg": 25.0,
+    "partial_admission": 0.305,
+    "chord_rotor_m": 0.025,
+    "sigma_rotor": 1.0,
+    "sigma_stator": 1.2,
+    "rotor_height_allowance_m": 0.0003,
+    "nozzle_steps": 400
+  },
+  "thermodynamics": {
+    "pressure_ratio_design": 5.2631578947368425,
+    "h_in_J_kg": 492784.485793999,
+    "s_in_J_kgK": 1792.1748252634557,
+    "dh_stage_is_J_kg": 31616.963865786674,
+    "c_is_stage_m_s": 251.46357138077346,
+    "U_design_m_s": 78.53981633974483,
+    "U_over_c_is_design": 0.3123307917265581
+  },
+  "nozzle": {
+    "phi_stator_design": 0.9120877058155213,
+    "p_throat_Pa": 1606766.917293233,
+    "T_throat_K": 399.83427213517643,
+    "Ma_out_is_design": 1.7744823908831753,
+    "Ma_out_design": 1.6407861990003085,
+    "A_throat_m2": 0.000462464128488424,
+    "A_outlet_is_m2": 0.0008479110509585468,
+    "A_outlet_act_m2": 0.0009234860263559548,
+    "A_ratio_is": 1.833463394728508,
+    "A_ratio_act": 1.9968814216453779
+  },
+  "geometry": {
+    "D_mid_m": 0.5,
+    "D_hub_m": 0.4900315845731805,
+    "D_tip_m": 0.5099684154268195,
+    "h_nozzle_m": 0.009668415426819467,
+    "h_rotor_m": 0.009968415426819466,
+    "partial_admission": 0.305,
+    "partial_admission_effective": 0.2984155182973038,
+    "alpha_stator_deg": 11.5,
+    "beta_rotor_in_deg": 23.0,
+    "beta_rotor_out_acute_deg": 25.0,
+    "chord_rotor_m": 0.025,
+    "pitch_rotor_m": 0.025,
+    "sigma_rotor": 1.0,
+    "pitch_stator_m": 0.026041666666666668,
+    "sigma_stator": 1.2,
+    "n_nozzles": 18,
+    "n_rotor_blades": 63,
+    "K_sector": 0.9478180514452802
+  },
+  "performance": {
+    "m_dot_design_kg_s": 5.025,
+    "n_design_rpm": 3000.0,
+    "P_aero_design_W": 101299.05738489778,
+    "P_fric_design_W": 882.6496380955454,
+    "P_partial_admission_design_W": 6882.64744289631,
+    "P_mech_design_W": 93533.76030390592,
+    "eta_turb_design": 0.5887245758822075,
+    "h_out_design_J_kg": 474170.80215143063,
+    "T_out_design_K": 368.0806877529916
+  }
+}
