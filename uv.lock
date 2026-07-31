@@ -450,6 +450,44 @@ wheels = [
 ]
 
 [[package]]
+name = "flexcache"
+version = "0.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/55/b0/8a21e330561c65653d010ef112bf38f60890051d244ede197ddaa08e50c1/flexcache-0.3.tar.gz", hash = "sha256:18743bd5a0621bfe2cf8d519e4c3bfdf57a269c15d1ced3fb4b64e0ff4600656", size = 15816, upload-time = "2024-03-09T03:21:07.555Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/27/cd/c883e1a7c447479d6e13985565080e3fea88ab5a107c21684c813dba1875/flexcache-0.3-py3-none-any.whl", hash = "sha256:d43c9fea82336af6e0115e308d9d33a185390b8346a017564611f1466dcd2e32", size = 13263, upload-time = "2024-03-09T03:21:05.635Z" },
+]
+
+[[package]]
+name = "flexparser"
+version = "0.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/82/99/b4de7e39e8eaf8207ba1a8fa2241dd98b2ba72ae6e16960d8351736d8702/flexparser-0.4.tar.gz", hash = "sha256:266d98905595be2ccc5da964fe0a2c3526fbbffdc45b65b3146d75db992ef6b2", size = 31799, upload-time = "2024-11-07T02:00:56.249Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/fe/5e/3be305568fe5f34448807976dc82fc151d76c3e0e03958f34770286278c1/flexparser-0.4-py3-none-any.whl", hash = "sha256:3738b456192dcb3e15620f324c447721023c0293f6af9955b481e91d00179846", size = 27625, upload-time = "2024-11-07T02:00:54.523Z" },
+]
+
+[[package]]
+name = "fluprodia"
+version = "4.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "coolprop" },
+    { name = "numpy" },
+    { name = "pint" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5a/10/474791f016a91548e8efb727dec9ab732ef8868e0a82e404528a6b66f2cd/fluprodia-4.2.tar.gz", hash = "sha256:429f706545610338aa7c982f03ac5795fa91533e9c4c25dae361f5584c4f9e43", size = 1168223, upload-time = "2026-04-24T17:29:09.45Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1d/a5/a929c96d82068bc0a6388404bcc16e1b6d94fe5b6417223ef630376280cd/fluprodia-4.2-py3-none-any.whl", hash = "sha256:6d0ab0c0f5b6d968cf11e8ded83f70a82898b83b8ec16d49ecdf91b6b5a5c761", size = 22733, upload-time = "2026-04-24T17:29:07.298Z" },
+]
+
+[[package]]
 name = "fonttools"
 version = "4.63.0"
 source = { registry = "https://pypi.org/simple" }
@@ -930,6 +968,7 @@ dependencies = [
     { name = "pandas" },
     { name = "scipy" },
     { name = "tabulate" },
+    { name = "tespy" },
     { name = "tqdm" },
 ]
 
@@ -937,6 +976,7 @@ dependencies = [
 dev = [
     { name = "ipykernel" },
     { name = "jupyter" },
+    { name = "jupyterlab" },
 ]
 
 [package.metadata]
@@ -950,6 +990,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "scipy", specifier = ">=1.18.0" },
     { name = "tabulate", specifier = ">=0.10.0" },
+    { name = "tespy", specifier = ">=0.11.0" },
     { name = "tqdm", specifier = ">=4.70.0" },
 ]
 
@@ -957,6 +998,7 @@ requires-dist = [
 dev = [
     { name = "ipykernel", specifier = ">=7.3.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "jupyterlab", specifier = ">=4.6.2" },
 ]
 
 [[package]]
@@ -1447,6 +1489,21 @@ wheels = [
 ]
 
 [[package]]
+name = "pint"
+version = "0.25.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "flexcache" },
+    { name = "flexparser" },
+    { name = "platformdirs" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/52/9d/b1379cdbd33a49d17d627bc24e2b63cca06a1c5343b38072d2889499e82e/pint-0.25.3.tar.gz", hash = "sha256:f8f5df6cf65314d74da1ade1bf96f8e3e4d0c41b51577ac53c49e7d44ca5acee", size = 255106, upload-time = "2026-03-19T21:57:08.72Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1b/dd/a9fe6a0a09512da23951c68bf36466aeecd89def3183dc095edbc807ddc5/pint-0.25.3-py3-none-any.whl", hash = "sha256:27eb25143bd5de9fcc4d5a4b484f16faf6b4615aa93ece6b3373a8c1a3c1b97d", size = 307488, upload-time = "2026-03-19T21:57:07.022Z" },
+]
+
+[[package]]
 name = "platformdirs"
 version = "4.11.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1910,6 +1967,26 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/8a/11/965c6fd8e5cc254f1fe142d547387da17a8ebfd75a3455f637c663fb38a0/terminado-0.18.1.tar.gz", hash = "sha256:de09f2c4b85de4765f7714688fff57d3e75bad1f909b589fde880460c753fd2e", size = 32701, upload-time = "2024-03-12T14:34:39.026Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/6a/9e/2064975477fdc887e47ad42157e214526dcad8f317a948dee17e1659a62f/terminado-0.18.1-py3-none-any.whl", hash = "sha256:a4468e1b37bb318f8a86514f65814e1afc977cf29b3992a4500d9dd305dcceb0", size = 14154, upload-time = "2024-03-12T14:34:36.569Z" },
+]
+
+[[package]]
+name = "tespy"
+version = "0.11.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "coolprop" },
+    { name = "fluprodia" },
+    { name = "jinja2" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "pint" },
+    { name = "scipy" },
+    { name = "tabulate" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5e/bd/593792127fe38563820a4c50b0f2f0f5dc3fc35b6f646cfef1e9a4da89b1/tespy-0.11.0.tar.gz", hash = "sha256:3f600ee0304f712c5ce6972a1c96b27c133ec5fd9b488c2e847061694b26f9a4", size = 8042112, upload-time = "2026-07-27T05:37:07.52Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b2/e2/db484d6be0ca5de2f2c4704ee6d5fd57dc120ddb6aedcdc83c26981e0fb1/tespy-0.11.0-py3-none-any.whl", hash = "sha256:73f55c1e947f2402b9a68cb62a08f8b973d1c98fbb2cdaff396fe63aab0a7831", size = 359915, upload-time = "2026-07-27T05:37:04.804Z" },
 ]
 
 [[package]]
