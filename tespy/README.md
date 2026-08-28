@@ -27,6 +27,11 @@ reference:
 
 ## Heat pump case study
 
+## Tutorial
+
+Before the group work starts we build a simple geothermal ORC model:
+[tutorial/](tutorial/).
+
 ## Getting started
 
 1. Set up the Python environment from the repository root:
@@ -34,7 +39,8 @@ reference:
      locally and creates the environment), or
    - download uv manually and run `uv sync`
 2. Start JupyterLab (`uv run jupyter lab`) or open the notebooks in VS Code
-3. Open your group's notebook, which provides the task description.
+3. Follow the [tutorial](tutorial/tutorial.ipynb) session
+4. Open your group's notebook, which provides the task description.
 
 ## Further materials
 
