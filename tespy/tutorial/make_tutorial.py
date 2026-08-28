@@ -35,6 +35,7 @@ import argparse
 import copy
 import json
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -43,6 +44,10 @@ HERE = Path(__file__).parent
 REFERENCE = HERE / "reference" / "tutorial_reference.ipynb"
 PARTICIPANT = HERE / "tutorial.ipynb"
 CHECKPOINT_DIR = HERE / "checkpoints"
+
+#: the flowsheet the notebooks show at the top - copied next to every
+#: generated notebook so the relative link works from all of them
+FLOWSHEET = HERE.parent / "slides" / "orc_w_labels.svg"
 
 #: name of the checkpoint -> last step it has filled in
 CHECKPOINTS = [
@@ -118,6 +123,16 @@ def write(path, notebook):
     path.write_text(json.dumps(notebook, indent=1) + "\n")
 
 
+def place_flowsheet(directory):
+    """The notebooks link the drawing relatively, and they live at
+    three different depths - so every one of them gets a copy."""
+    target = directory / FLOWSHEET.name
+    if not FLOWSHEET.exists():
+        print(f"  flowsheet missing: {FLOWSHEET}")
+        return
+    shutil.copyfile(FLOWSHEET, target)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -142,6 +157,11 @@ def main():
         for problem in problems:
             print(" ", problem)
         return 1
+
+    for directory in (HERE, CHECKPOINT_DIR, REFERENCE.parent):
+        directory.mkdir(exist_ok=True)
+        place_flowsheet(directory)
+    print(f"{FLOWSHEET.name}: copied next to the notebooks")
 
     scaffold, emptied = derive(notebook)
     write(PARTICIPANT, scaffold)
