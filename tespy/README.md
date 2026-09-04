@@ -53,3 +53,8 @@ Before the group work starts we build a simple geothermal ORC model:
 - Francesco Witte
 - Jannik von Zabienski
 - Christopher Schifflechner
+
+## AI usage
+
+Claude code was used in the templating and drafting for parts of the presented
+materials.
