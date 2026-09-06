@@ -136,38 +136,38 @@
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 202.99994,150 v 5 h 17 l 0,5"
-       id="c12"
+       id="c02"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
-       inkscape:label="c12" />
+       inkscape:label="c02" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 196.99994,150 v 5 h -17 l 0,5"
-       id="c13"
+       id="c03"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
-       inkscape:label="c13" />
+       inkscape:label="c03" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 179.99994,170 0,10 h 15"
-       id="c14"
+       id="c04"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:label="c14" />
+       inkscape:label="c04" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 289.99994,145 H 204.99993"
-       id="c32"
+       id="d02"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:label="c32" />
+       inkscape:label="d02" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 194.99994,145 h -15"
-       id="c31"
+       id="d01"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:label="c31" />
+       inkscape:label="d01" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
        d="m 230.99994,165 h -6"
@@ -341,17 +341,17 @@
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 179.99993,225 h 17 v -5"
-       id="c22"
+       id="a02"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:label="c22" />
+       inkscape:label="a02" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 202.99993,220 v 5 l 87.00001,0"
-       id="c21"
+       id="a01"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:label="c21" />
+       inkscape:label="a01" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 179.99993,223 -2,2.00001 2,1.99999 z"
@@ -397,31 +397,31 @@
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 212.99994,180 h -8"
-       id="c15"
+       id="c05"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:label="c15" />
+       inkscape:label="c05" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 219.99994,170 0,10 h -5"
-       id="c11"
+       id="c01"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:label="c11" />
+       inkscape:label="c01" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 202.99993,185 v 5 h 17 v 5"
-       id="c02"
+       id="b02"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
-       inkscape:label="c02" />
+       inkscape:label="b02" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 196.99993,185 v 5 h -17 v 5"
-       id="c03"
+       id="b03"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
-       inkscape:label="c03" />
+       inkscape:label="b03" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 212.99993,213 2,2.00001 -2,1.99999 z"
@@ -432,24 +432,24 @@
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 179.99993,205 0,10.00001 h 15"
-       id="c04"
+       id="b04"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:label="c04" />
+       inkscape:label="b04" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 212.99993,215.00001 h -8"
-       id="c05"
+       id="b05"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:label="c05" />
+       inkscape:label="b05" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 219.99993,205 0,10.00001 h -5"
-       id="c01"
+       id="b01"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:label="c01" />
+       inkscape:label="b01" />
     <g
        id="LT-evaporator"
        transform="rotate(180,197.49996,207.5)"
@@ -496,20 +496,20 @@
       <text id="label-14" x="293.5" y="226" style="font-size:1.9px;text-anchor:start;fill:#ff0000;stroke:none">geothermal-source</text>
       <text id="label-15" x="247" y="228" style="font-size:1.8px;text-anchor:start;fill:#000000;stroke:none">power-distribution</text>
       <text id="label-16" x="247.8" y="241" style="font-size:2.0px;text-anchor:start;fill:#000000;stroke:none">grid</text>
-      <text id="label-17" x="221.4" y="211" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c01</text>
-      <text id="label-18" x="221.4" y="192" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c02</text>
-      <text id="label-19" x="181.4" y="193.8" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c03</text>
-      <text id="label-20" x="181.4" y="211" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c04</text>
-      <text id="label-21" x="209" y="213.4" style="font-size:2.4px;text-anchor:middle;fill:#000000;stroke:none">c05</text>
-      <text id="label-22" x="221.4" y="176" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c11</text>
-      <text id="label-23" x="221.4" y="158" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c12</text>
-      <text id="label-24" x="181.4" y="158" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c13</text>
-      <text id="label-25" x="181.4" y="176" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c14</text>
-      <text id="label-26" x="209" y="178.4" style="font-size:2.4px;text-anchor:middle;fill:#000000;stroke:none">c15</text>
-      <text id="label-27" x="250" y="223.6" style="font-size:2.4px;text-anchor:middle;fill:#ff0000;stroke:none">c21</text>
-      <text id="label-28" x="188.5" y="223.6" style="font-size:2.4px;text-anchor:middle;fill:#ff0000;stroke:none">c22</text>
-      <text id="label-29" x="187.5" y="143.6" style="font-size:2.4px;text-anchor:middle;fill:#000000;stroke:none">c31</text>
-      <text id="label-30" x="250" y="143.6" style="font-size:2.4px;text-anchor:middle;fill:#000000;stroke:none">c32</text>
+      <text id="label-17" x="221.4" y="211" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">b01</text>
+      <text id="label-18" x="221.4" y="192" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">b02</text>
+      <text id="label-19" x="181.4" y="193.8" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">b03</text>
+      <text id="label-20" x="181.4" y="211" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">b04</text>
+      <text id="label-21" x="209" y="213.4" style="font-size:2.4px;text-anchor:middle;fill:#000000;stroke:none">b05</text>
+      <text id="label-22" x="221.4" y="176" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c01</text>
+      <text id="label-23" x="221.4" y="158" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c02</text>
+      <text id="label-24" x="181.4" y="158" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c03</text>
+      <text id="label-25" x="181.4" y="176" style="font-size:2.4px;text-anchor:start;fill:#000000;stroke:none">c04</text>
+      <text id="label-26" x="209" y="178.4" style="font-size:2.4px;text-anchor:middle;fill:#000000;stroke:none">c05</text>
+      <text id="label-27" x="250" y="223.6" style="font-size:2.4px;text-anchor:middle;fill:#ff0000;stroke:none">a01</text>
+      <text id="label-28" x="188.5" y="223.6" style="font-size:2.4px;text-anchor:middle;fill:#ff0000;stroke:none">a02</text>
+      <text id="label-29" x="187.5" y="143.6" style="font-size:2.4px;text-anchor:middle;fill:#000000;stroke:none">d01</text>
+      <text id="label-30" x="250" y="143.6" style="font-size:2.4px;text-anchor:middle;fill:#000000;stroke:none">d02</text>
       <text id="label-31" x="236.4" y="215" style="font-size:1.9px;text-anchor:start;fill:#666666;stroke:none">e01</text>
       <text id="label-32" x="228" y="198.4" style="font-size:1.9px;text-anchor:middle;fill:#666666;stroke:none">e02</text>
       <text id="label-33" x="246.4" y="190" style="font-size:1.9px;text-anchor:start;fill:#666666;stroke:none">e11</text>
