@@ -10,6 +10,7 @@ The KCORC Summer School repo is designed to store lecture notes, sample code, da
 
 - `README.md` - repository overview and usage instructions
 - `ORC_turbo_design/` - lessons and exercises related to ORC turbo design
+- `tespy/` - lessons and exercises related to the TESPy modeling workshop
 - `pyproject.toml` - configuration file for Python project dependencies
 
 
